@@ -4,7 +4,9 @@ scikit-learn
 matplotlib
 xgboost
 dill
-dnspython
-evidently
-pymongo
--e .
+dnspython==2.2.1
+evidently==0.1.58.dev0
+pymongo[srv]
+python-dotenv==0.21.0
+dill==0.3.5.1
+#-e .

@@ -8,7 +8,7 @@ data_frame = pd.read_csv(r"G:\100-days-of-dl\Krish_Naik\FSDS_Ineuron_Course\proj
 
 records = list(loads(data_frame.T.to_json()).values())
 
-client = MongoClient("mongodb+srv://harshal:harshal123@cluster0.gimlrjo.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://hacktech:harshal@cluster0.pli36wz.mongodb.net/?retryWrites=true&w=majority")
 
 database_name = client["Harshal"]
 

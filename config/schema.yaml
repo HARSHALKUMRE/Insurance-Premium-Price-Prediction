@@ -1,0 +1,11 @@
+columns:
+  age: int
+  sex: category
+  bmi: float
+  children: int
+  smoker: category
+  region: category
+  expenses: float
+
+Drop_columns:
+  - id
