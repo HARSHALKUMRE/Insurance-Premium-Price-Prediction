@@ -7,5 +7,13 @@ columns:
   region: category
   expenses: float
 
-Drop_columns:
-  - id
+# for data validatiom
+numerical_columns:
+  - age 
+  - bmi
+  - children
+  - expenses
+categorical_columns:
+  - sex
+  - smoker
+  - region
